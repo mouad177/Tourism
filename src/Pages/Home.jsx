@@ -131,7 +131,7 @@ function Home() {
 <motion.h3  initial={{x:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,x:0}} viewport={{once:false,amount:0.5}} className='dark:text-white text-black font-semibold flex justify-end p-4 text-xl '> معلومات سياحية شاملة</motion.h3>
 <motion.div  initial={{x:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,x:0}} viewport={{once:false,amount:0.5}} id='border'></motion.div>
 
-<div id='Countrys' className='mt-20 gap-10 translate-x-6 md:translate-x-4 lg:translate-x-0'>
+<div id='Countrys' className='mt-20 gap-10 translate-x-0 md:translate-x-4 lg:translate-x-0'>
 
 
 <Link to='/Qatar' className='z-40' id='Country'>
@@ -508,7 +508,7 @@ function Home() {
 <motion.h3  initial={{x:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,x:0}} viewport={{once:false,amount:0.5}} className='dark:text-white text-black font-semibold flex justify-end p-4 text-xl '> الخرائط السياحية</motion.h3>
 <motion.div  initial={{x:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,x:0}} viewport={{once:false,amount:0.5}} id='border2'></motion.div>
 
-<div id='Countrys' className='mt-20 gap-10 translate-x-20 md:translate-x-6  lg:translate-x-0'>
+<div id='Countrys' className='mt-20 gap-10 translate-x-6 md:translate-x-6  lg:translate-x-0'>
 
 
 <Link to='/Japan' className='z-40' id='Country'>
@@ -595,7 +595,7 @@ function Home() {
 
 <Link to='/France' className='z-40' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div id="France" className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#1d62b7c6] w-fit m-3 p-2'>
+<div id="France" className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#1d62b7c6] w-[320px] m-3 p-2'>
  <div  className='flex items-center gap-4'>
   <div id='FranceFlag'>
   <img  src={FranceFlag} width={180} />
@@ -650,7 +650,7 @@ function Home() {
 <motion.div  initial={{x:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,x:0}} viewport={{once:false,amount:0.5}} id='border3'></motion.div>
 
 
-<div id='Countrys' className='mt-20 gap-10 translate-x-20 md:translate-x-6  lg:translate-x-0'>
+<div id='Countrys' className='mt-20 gap-10 translate-x-6 md:translate-x-6  lg:translate-x-0'>
 
 
 <Link to='/Russia' className='z-40' id='Country'>
@@ -794,7 +794,7 @@ function Home() {
 
 <Link to='/خطة-سفر-جاهزة-السعودية-الامارات-قطر' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className=' rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#2d694ec6] w-[400px] m-3 p-2'>
+<div  className=' rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#2d694ec6] w-[340px] m-3 p-2'>
  <div  className='flex flex-col items-center mx-auto gap-4 '>
   <div id='Flags' className='flex mx-auto w-[80%] items-center'>
   <img  src={SaudiArabiaFlag} width={100} />
@@ -836,7 +836,7 @@ function Home() {
 </Link>
 <Link to='/خطة-سفر-جاهزة-روسيا-ايطاليا-فرنسا' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#254972c6] w-[400px] m-3 p-2'>
+<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#254972c6] w-[340px] m-3 p-2'>
  <div  className='flex flex-col items-center gap-4 '>
   <div id='Flags' className='flex items-center'>
   <img  src={ItalyFlag} width={100} />
@@ -879,7 +879,7 @@ function Home() {
 
 <Link to='/خطة-سفر-جاهزة-امريكا-كندا-ماليزيا' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#75381ec6] w-[400px] m-3 p-2'>
+<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#75381ec6] w-[340px] m-3 p-2'>
  <div  className='flex flex-col items-center gap-4 '>
   <div id='Flags' className='flex items-center'>
   <img  src={CanadaFlag} width={100} />
@@ -922,7 +922,7 @@ function Home() {
 
 <Link to='/خطة-سفر-جاهزة-المغرب-الكويت-تركيا' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#7e7340c6] w-[400px] m-3 p-2'>
+<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#7e7340c6] w-[340px] m-3 p-2'>
  <div  className='flex flex-col items-center gap-4 '>
   <div id='Flags' className='flex items-center'>
   <img  src={MoroccoFlag} width={100} />
@@ -983,7 +983,7 @@ function Home() {
 <section id='Contact'>
 <motion.h3 initial={{opacity:0,x:-20}} whileInView={{opacity:1,x:0}} viewport={{amount:0.5,once:false}} transition={{duration:1,delay:0.6}}  className='text-black  dark:text-white font-extrabold text-center p-2 text-5xl md:text-6xl mt-14'>Contact Us</motion.h3>
 
-  <div className='flex  flex-col-reverse md:flex-row items-center justify-center gap-2'>
+  <div className='flex  flex-col-reverse md:flex-row items-center justify-center mx-auto  gap-2'>
 <motion.div className='rounded-2xl' initial={{opacity:0,x:-100,rotate:30}} whileInView={{opacity:1,rotate:0,x:0}} viewport={{amount:0.5,once:false}} transition={{duration:1}} >  <Lottie  animationData={emailTour} style={{height:500,width:500}} />
 </motion.div>
 <form>

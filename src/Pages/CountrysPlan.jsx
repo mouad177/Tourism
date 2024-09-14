@@ -58,14 +58,14 @@ function CountrysPlan() {
 <Header/>
 <div id='TouristInformationSection'  >
 <div className='z-40'>
-  <h3 id='title' className='flex justify-center font-bold text-black dark:text-white mt-10 translate-x-9 md:translate-x-0 translate-y-14'>الرئيسية - خطة سفر جاهزة</h3>
+  <h3 id='title' className='flex justify-center font-bold text-black dark:text-white mt-10 translate-x-0 md:translate-x-0 translate-y-14'>الرئيسية - خطة سفر جاهزة</h3>
   <div id='CountrysPlan' className='mt-20 gap-10 translate-x-4 md:translate-x-6  lg:translate-x-0'>
 
 
 
 <Link to='/خطة-سفر-جاهزة-السعودية-الامارات-قطر' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#2d694ec6] w-[400px] m-3 p-2'>
+<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#2d694ec6] w-[320px] m-3 p-2'>
  <div  className='flex flex-col items-center gap-4 '>
   <div id='Flags' className='flex items-center'>
   <img  src={SaudiArabiaFlag} width={100} />
@@ -107,7 +107,7 @@ function CountrysPlan() {
 </Link>
 <Link to='/خطة-سفر-جاهزة-روسيا-ايطاليا-فرنسا' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#254972c6] w-[340px] m-3 p-2'>
+<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#254972c6] w-[320px] m-3 p-2'>
  <div  className='flex flex-col items-center gap-4 '>
   <div id='Flags' className='flex items-center'>
   <img  src={ItalyFlag} width={100} />
@@ -150,7 +150,7 @@ function CountrysPlan() {
 
 <Link to='/خطة-سفر-جاهزة-امريكا-كندا-ماليزيا' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#75381ec6] w-[400px] m-3 p-2'>
+<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#75381ec6] w-[320px] m-3 p-2'>
  <div  className='flex flex-col items-center gap-4 '>
   <div id='Flags' className='flex items-center'>
   <img  src={CanadaFlag} width={100} />
@@ -193,7 +193,7 @@ function CountrysPlan() {
 
 <Link to='/خطة-سفر-جاهزة-المغرب-الكويت-تركيا' className='z-40 ' id='Country'>
 <motion.div initial={{y:60,opacity:0}} transition={{duration:1}}whileInView={{opacity:1,y:0}} viewport={{once:false,amount:0.5}} id="Country" className='flex flex-col items-center gap-2  w-fit'>
-<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#7e7340c6] w-[400px] m-3 p-2'>
+<div  className='rounded-br-2xl bg-gradient-to-tr from-gray-800 to-[#7e7340c6] w-[320px] m-3 p-2'>
  <div  className='flex flex-col items-center gap-4 '>
   <div id='Flags' className='flex items-center'>
   <img  src={MoroccoFlag} width={100} />

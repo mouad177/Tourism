@@ -10,14 +10,14 @@ function Contact() {
   return (
 <>
 <Header/>
-<div id='TouristInformationSection'  >
+<div id='TouristInformationSection'  className='overflow-x-hidden md:overflow-x-visible'>
 <div className='z-40'>
-  <h3 id='title' className='flex justify-center font-bold text-black dark:text-white mt-10 translate-x-9 md:translate-x-0 translate-y-14'>الرئيسية - اتصل بنا</h3>
+  <h3 id='title' className='flex -translate-x-12 md:translate-x-0 justify-center font-bold text-black dark:text-white mt-10  translate-y-14'>الرئيسية - اتصل بنا</h3>
 
-  <section id='Contact'>
+  <section id='Contact' className='-translate-x-12 md:translate-x-0'>
 <motion.h3 initial={{opacity:0,x:-20}} whileInView={{opacity:1,x:0}} viewport={{amount:0.5,once:false}} transition={{duration:1,delay:0.6}}  className='text-black  dark:text-white font-extrabold text-center p-2 text-5xl md:text-6xl mt-14'>Contact Us</motion.h3>
 
-  <div className='flex  flex-col-reverse md:flex-row items-center justify-center gap-2'>
+  <div className='flex  flex-col-reverse md:flex-row items-center justify-center mx-auto gap-2'>
 <motion.div className='rounded-2xl' initial={{opacity:0,x:-100,rotate:30}} whileInView={{opacity:1,rotate:0,x:0}} viewport={{amount:0.5,once:false}} transition={{duration:1}} >  <Lottie  animationData={emailTour} style={{height:500,width:500}} />
 </motion.div>
 <form>

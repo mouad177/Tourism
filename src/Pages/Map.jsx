@@ -24,7 +24,7 @@ function Map() {
 <div className='z-40'>
   <h3 id='title' className='flex justify-center font-bold text-black dark:text-white mt-10 translate-x-7 md:translate-x-0 translate-y-14'>الرئيسية - الخرائط السياحية</h3>
 
-  <div id='Countrys' className='mt-20 gap-10 translate-x-4 md:translate-x-6  lg:translate-x-0'>
+  <div id='Countrys' className='mt-20 gap-10 translate-x-8 md:translate-x-6  lg:translate-x-0'>
 
 
 <Link to='/Japan' className='z-40' id='Country'>
