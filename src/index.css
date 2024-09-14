@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button,a{
+    cursor: default;
+}
+#Card{
+    transition: 1s;
+}
+#Card:hover{
+    transform: translateY(-5%);
+    scale: 1.05;
+    border: 2px solid rgb(53, 126, 185);
+}
+@media (min-width:540px) and (max-width:720px){
+
+
+
+
+#Countrys,#title,#CountrysPlan{
+    translate: 50px 0;
+}
+
+}
