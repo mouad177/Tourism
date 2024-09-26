@@ -117,7 +117,7 @@ const [open2,setOpen2] = useState(false);
 
 <Link to='/الصفحة-الرئيسية'>
 <div id="logo" className='flex items-center'>
-    <h2 className='dark:text-white text-black text-2xl pr-2' >تــــور</h2>
+    <h2 className='dark:text-white text-black text-2xl pr-2' >رحلــة</h2>
   </div>
 </Link>
 

@@ -59,7 +59,7 @@ function CountrysPlan() {
 <div id='TouristInformationSection'  >
 <div className='z-40'>
   <h3 id='title' className='flex justify-center font-bold text-black dark:text-white mt-10  translate-y-14'>الرئيسية - خطة سفر جاهزة</h3>
-  <div id='CountrysPlan' className='mt-20 gap-10 translate-x-4 md:translate-x-6  lg:translate-x-0'>
+  <div id='CountrysPlan' className='mt-20 gap-10 translate-x-4 md:translate-x-6  lg:translate-x-16'>
 
 
 
