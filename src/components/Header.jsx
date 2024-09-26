@@ -207,7 +207,7 @@ const [open2,setOpen2] = useState(false);
 
 
 
-<motion.div id='searchInputBox' initial={{opacity:0,scale:0}} animate={{opacity:open?1:0,scale:open?1:0}} transition={{duration:0.5}} className='flex  justify-center z-30  w-[80%] md:w-[60%] m-auto relative shadow-md bg-slate-400 dark:bg-gray-900 '>
+<motion.div id='searchInputBox' initial={{opacity:0,scale:0}} animate={{opacity:open?1:0,scale:open?1:0}} transition={{duration:0.5}} className='flex  justify-center items-center z-30  w-[70%] md:w-[60%] m-auto relative shadow-md bg-slate-400 dark:bg-gray-900 '>
 <input 
  id='searchInput'   className='text-black dark:text-white rounded-xl bg-slate-300 dark:bg-gray-800 text-center p-2  w-[70%] outline-none' type="search" name="search" placeholder='ادخل كلمة البحث' />
 <img id='close2' onClick={()=> setOpen(!open)} src={close} width={30} className='absolute right-[2%] top-[6%]' alt="" />
@@ -215,7 +215,7 @@ const [open2,setOpen2] = useState(false);
 
 
 
-<div  id='settings'  className='z-50 bg-gradient-to-tr from-[#cebebebf] to-[#626390]  relative shadow-2xl  lg:absolute lg:top-[100%] -translate-x-full duration-700 ease-in-out w-[400px] dark:from-[#3c3838] dark:to-[#504577]  p-2 rounded-xl '>
+<div  id='settings'  className='z-50 bg-gradient-to-tr from-[#cebebebf] to-[#626390]  relative shadow-2xl  lg:absolute lg:top-[100%] -translate-x-full duration-700 ease-in-out w-[350px] md:w-[400px] dark:from-[#3c3838] dark:to-[#504577]  p-2 rounded-xl '>
 <img id='close' src={close} className='absolute' width={40} alt="" />
 
 <div dir='rtl' className='flex flex-row items-center gap-3'>
