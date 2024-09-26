@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-<BrowserRouter basename='/Innovative/'>
+<BrowserRouter basename='/Tourism/'>
 <Routes>
 
 <Route index element={<Home/>} />
